@@ -1,0 +1,29 @@
+You need to install 2 modules first:
+
+npm install uuid
+
+npm install openpgp
+
+Then, you can run the scripts..
+
+
+0. create a password/passphrase and save into a file: "passphraseAlice.txt"
+
+1. node  genkeypair.js
+
+2. node  encrypt.js
+
+3. node  decrypt.js
+
+
+---------------------------------------------------------------------------
+Also, as an option, you can generated automatically the passphraseAlice.txt
+by running the script:
+
+0. node  genpassphrase.js
+---------------------------------------------------------------------------
+
+Tested on Debian Buster x86 64
+and Raspbian Buster RPI3
+
+
